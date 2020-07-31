@@ -1,0 +1,57 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <div id="logoContainer">
+    <a href="/" id="logo">GoodShares</a>
+    </div>
+<div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="text" placeholder="name"/>
+        <input type="password" placeholder="password"/>
+        <input type="text" placeholder="email address"/>
+        <button>create</button>
+      </form>
+      <form class="login-form">
+        <input id="username" type="text" placeholder="username"/>
+        <input id="userPassword" type="password" placeholder="password"/>
+        <button input type="button" onclick="location.href='Shares.html'; storeCredentials('username', 'userPassword');">Login</button>
+        <p class onclick="document.getElementById('id01').style.display='block'">Not registered? <a href="#">Create an account</a></p>
+      </form>
+    </div>
+    
+<div id="id01" class="customModal">
+  
+  <form class="customModal-content animate" action="/action_page.php" method="post">
+
+    <div class="container">
+       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="submitbtn">Submit</button>
+    </div>
+  </form>
+</div>
+  </div>
+
+<script type="text/javascript" src="javascript.js"></script>

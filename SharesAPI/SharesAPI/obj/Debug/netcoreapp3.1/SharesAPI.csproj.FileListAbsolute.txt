@@ -1,0 +1,7 @@
+C:\Users\Liam\Documents\CloudComputing\SharesAPI\obj\Debug\netcoreapp3.1\SharesAPI.csprojAssemblyReference.cache
+C:\Users\Liam\Documents\CloudComputing\SharesAPI\obj\Debug\netcoreapp3.1\staticwebassets\SharesAPI.StaticWebAssets.Manifest.cache
+C:\Users\Liam\Documents\CloudComputing\SharesAPI\obj\Debug\netcoreapp3.1\staticwebassets\SharesAPI.StaticWebAssets.xml
+C:\Users\Liam\Documents\CloudComputing\SharesAPI\obj\Debug\netcoreapp3.1\SharesAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Liam\Documents\CloudComputing\SharesAPI\obj\Debug\netcoreapp3.1\SharesAPI.AssemblyInfoInputs.cache
+C:\Users\Liam\Documents\CloudComputing\SharesAPI\obj\Debug\netcoreapp3.1\SharesAPI.AssemblyInfo.cs
+C:\Users\Liam\Documents\CloudComputing\SharesAPI\obj\Debug\netcoreapp3.1\SharesAPI.MvcApplicationPartsAssemblyInfo.cs
